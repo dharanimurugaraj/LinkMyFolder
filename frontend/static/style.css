@@ -1,0 +1,18 @@
+.three-d-canvas {
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.task-item {
+    transition: all 0.3s ease;
+}
+
+.task-item:hover {
+    transform: translateX(5px);
+    background-color: #f1f5f9;
+}
+
+.dark .task-item:hover {
+    background-color: #4b5563;
+}
